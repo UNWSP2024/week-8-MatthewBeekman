@@ -1,0 +1,22 @@
+Define Main function\
+	Set courses equal to {}
+	While true, ask user to input course id
+		If input is “exit” 
+			Break loop
+		Ask user to input course name
+		Courses and course id equal course name
+	Ask user for subject wanted
+	Display “Courses for subject”
+	Set found equal to false
+	For courses and course id in courses.items()
+		If course id starts with subject
+			Display course id and course name
+			Found equals true
+	If not found
+		Display “No courses are found for this subject”
+Run main function
+
+# Matthew Beekman
+# 10/24/2024
+# Program 4
+	
